@@ -5,6 +5,7 @@ import StarRating from "./components/star-rating";
 import ImageSlider from "./components/image-slider";
 import LoadMoreButton from "./components/load-more-data";
 import LoadMoreData from "./components/load-more-data";
+import TreeView from "./components/tree-view";
 
 function App() {
   return (
@@ -26,7 +27,10 @@ function App() {
       /> */}
 
       {/* Load More Button */}
-      <LoadMoreData />
+      {/* <LoadMoreData /> */}
+
+      {/* Tree View */}
+      <TreeView />
     </>
   );
 }
